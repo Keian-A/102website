@@ -1,0 +1,60 @@
+* {
+    font-family: Oswald, Arial;
+    background-color: #6293FF;
+    color: #7FDBAC;
+}
+
+h1 {
+    display: inline;
+    font-size: 300%;
+}
+
+li {
+    list-style: none;
+    display: inline;
+    margin: 0 40px;
+}
+
+header {
+    text-align: center;
+}
+
+footer {
+    margin: 25px;
+}
+
+section {
+    text-align: center;
+}
+
+#top-image p {
+    width: 60%;
+    font-size: 150%;
+    display: inline;
+    float: right;
+    text-align: center;
+    margin: 4%;
+}
+
+#mid-image p {
+    width: 60%;
+    font-size: 150%;
+    display: inline;
+    float: left;
+    text-align: center;
+    margin: 5% 5%;
+}
+
+#bottom-image p {
+    width: 50%;
+    font-size: 150%;
+    display: inline;
+    float: right;
+    text-align: center;
+    margin: 10%;
+}
+
+#top-image img, #bottom-image img, #mid-image img {
+    width: 20%;
+    border: solid black 1px;
+}
