@@ -19,6 +19,15 @@ function waterName() {
 
 function adminName() {
     if (userNameFirst == 'Keian') {
-        document.write('Welcome back ' + userNameFirst);
+        document.write('Welcome back, Administrator ');
     }
+}
+
+function websiteClearance() {
+    alert('You must be over 21 years old to view this site.')
+    let ageOfPerson = 0
+    while (ageOfPerson < 21) {
+        ageOfPerson = parseInt(prompt('How old are you?'))
+    }
+    return 0
 }
