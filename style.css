@@ -58,3 +58,8 @@ section {
     width: 20%;
     border: solid black 1px;
 }
+
+#rating {
+    width: 20px;
+    display: inline;
+}

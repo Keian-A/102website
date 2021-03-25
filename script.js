@@ -31,3 +31,12 @@ function websiteClearance() {
     }
     return 0
 }
+
+let websiteRating = prompt('How many stars would you like to rate us out of 5?')
+
+function askWebsiteRating() {
+    for (let i = 0; i != websiteRating; i++) {
+        document.write('<img src="Star.png"/>')
+    }
+    document.write("Thanks for rating us " + websiteRating + '/5 stars!')
+}
